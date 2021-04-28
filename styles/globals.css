@@ -1,5 +1,4 @@
 * {
-  font-family: Pixel Digivolve, sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -10,14 +9,3 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "Pixel Digivolve";
-  src: url("/static/fonts/Pixel\ Digivolve.ttf");
-  font-style: normal;
-};
-
-@font-face {
-  font-family: "Pixel Digivolve";
-  src: url("/static/fonts/Pixel\ Digivolve\ Italic.ttf");
-  font-style: italic;
-};
