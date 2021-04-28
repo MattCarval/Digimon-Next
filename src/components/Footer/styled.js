@@ -25,7 +25,7 @@ export const Logo = styled.img`
   }
 
   @media (max-width: 540px) {
-    width: 60%;
+    width: 50%;
   }
 `;
 

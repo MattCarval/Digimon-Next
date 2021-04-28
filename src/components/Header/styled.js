@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Glitch, OrangePulse, Warning } from '../../../styles/animations';
+import { Glitch, OrangePulse } from '../../../styles/animations';
 
 export const Wrapper = styled.header`
   padding: 20px 0;
@@ -30,7 +30,6 @@ export const Logo = styled.img`
 export const Redirect = styled.h1`
   color: white;
   font-size: 30px;
-  animation: ${Warning} infinite 0.8s;
 
   :hover {
     cursor: pointer;
