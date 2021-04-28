@@ -1,0 +1,20 @@
+import PropTypes from 'prop-types';
+import * as S from './styled';
+
+const {{pascalCase name}} = ({ text }) => (
+<S.Wrapper>
+  <h1>{{text}}</h1>
+</S.Wrapper>
+);
+
+export default {{pascalCase name}};
+
+{{pascalCase name}}.defaultProps = {
+text: '',
+};
+
+{{pascalCase name}}.propTypes = {
+text: PropTypes.string,
+};
+
+export default {{pascalCase name}};
