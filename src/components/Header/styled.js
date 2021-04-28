@@ -22,7 +22,7 @@ export const Logo = styled.img`
     transform: scale(1.15);
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 1024px) {
     width: 50%;
   }
 `;
