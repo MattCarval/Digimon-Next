@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Glitch, OrangePulse } from '../../../styles/animations';
+import { Glitch, OrangePulse, Warning } from '../../../styles/animations';
 
 export const Wrapper = styled.header`
   padding: 20px 0;
@@ -14,6 +14,13 @@ export const Nav = styled.nav`
 
 export const Logo = styled.img`
   width: 20%;
+  animation: ${Glitch} infinite 0.4s;
+
+  :hover {
+    cursor: default;
+    animation: none;
+    transform: scale(1.15);
+  }
 
   @media (max-width: 540px) {
     width: 50%;
@@ -23,7 +30,7 @@ export const Logo = styled.img`
 export const Redirect = styled.h1`
   color: white;
   font-size: 30px;
-  animation: ${Glitch} infinite 1s;
+  animation: ${Warning} infinite 0.8s;
 
   :hover {
     cursor: pointer;

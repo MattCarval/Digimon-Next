@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import { Glitch, OnlyGlitch, OrangePulse } from '../../../styles/animations';
+import { Glitch, OnlyGlitch, Warning } from '../../../styles/animations';
 
 export const Wrapper = styled.footer`
   background-color: black;
 `;
 
 export const Content = styled.div`
-  padding-top: 30px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,8 +14,8 @@ export const Content = styled.div`
 
 export const Logo = styled.img`
   width: 20%;
-  animation: ${Glitch} infinite 1.2s;
-  transition: all 0.7s ease;
+  animation: ${Glitch} infinite 0.4s;
+  transition: all 0.3s ease;
 
   :hover {
     cursor: pointer;
@@ -45,15 +45,14 @@ export const SocialBox = styled.div`
 export const Social = styled.a`
   img {
     filter: grayscale() brightness(2);
-    animation: ${OnlyGlitch} infinite 1.2s;
     width: 30px;
-    transition: all 0.7s ease-in;
+    transition: all 0.1s ease-in;
   }
 
   img:hover {
     cursor: pointer;
     filter: none;
-    animation: ${OrangePulse} infinite 1.2s;
+    animation: ${OnlyGlitch} infinite 0.5s;
     transition: all 0.7s ease-in;
   }
 `;
@@ -64,12 +63,13 @@ export const Created = styled.div`
   justify-content: center;
 
   > span {
-    margin: 15px 0;
+    padding-bottom: 15px;
     color: #ff6600;
+    animation: ${Warning} infinite 1s;
   }
 
   > span:hover {
     cursor: default;
-    animation: ${OrangePulse} infinite 1.2s;
+    animation: ${OnlyGlitch} infinite 1.2s;
   }
 `;

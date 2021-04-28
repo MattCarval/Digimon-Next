@@ -83,3 +83,15 @@ export const OrangePulse = keyframes`
   transition: all 1s ease-in;
   }
 `;
+
+export const Warning = keyframes`
+0% {
+color: white;
+transition: all 1s ease-in;
+}
+
+100%{
+color: #ff6600;
+transition: all 1s ease-in;
+}
+`;
