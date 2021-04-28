@@ -14,7 +14,7 @@ export const Content = styled.div`
 
 export const Logo = styled.img`
   width: 20%;
-  animation: ${Glitch} infinite 0.4s;
+  animation: ${Glitch} 1s ease 0s infinite normal none running;
   transition: all 0.3s ease;
 
   :hover {
@@ -52,7 +52,7 @@ export const Social = styled.a`
   img:hover {
     cursor: pointer;
     filter: none;
-    animation: ${OnlyGlitch} infinite 0.5s;
+    animation: ${OnlyGlitch} 1s ease 0s infinite normal none running;
     transition: all 0.7s ease-in;
   }
 `;
