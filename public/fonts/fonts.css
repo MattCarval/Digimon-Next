@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Pixel Digivolve";
-  src: url("/static/fonts/Pixel\ Digivolve.ttf");
+  src: url("Pixel\ Digivolve.ttf");
   font-style: normal;
 };
 
 @font-face {
   font-family: "Pixel Digivolve";
-  src: url("/static/fonts/Pixel\ Digivolve\ Italic.ttf");
+  src: url("Pixel\ Digivolve\ Italic.ttf");
   font-style: italic;
 };
