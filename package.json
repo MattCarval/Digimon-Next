@@ -7,8 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "eslint ./src --max-warnings=0 --fix",
-    "generate": "plop --plopfile generators/plopfile.js",
-    "prepare": "husky install"
+    "generate": "plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
