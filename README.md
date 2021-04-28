@@ -1,6 +1,7 @@
 
 ![Digimon Next](https://raw.github.com/MattCarval/Digimon-Next/main/public/assets/logoTitle.png)
 
+
 This is a [Next.js](https://nextjs.org/) study project.
 
 ## What is inside?
