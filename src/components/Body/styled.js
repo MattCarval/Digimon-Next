@@ -16,7 +16,7 @@ export const Search = styled.div`
 
   padding: 50px 0;
   > h1 {
-    margin: 125rem 0;
+    margin: 20px 0;
     text-align: center;
   }
 `;
