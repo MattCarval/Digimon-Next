@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Glitch, OrangePulse, Warning } from '../../../styles/animations';
 
 export const Wrapper = styled.header`
-  padding: 20px 0;
+  padding: 1.25rem 0;
   background-color: black;
 `;
 
@@ -29,7 +29,7 @@ export const Logo = styled.img`
 
 export const Redirect = styled.h1`
   color: white;
-  font-size: 30px;
+  font-size: 1.875rem;
   animation: ${Warning} infinite 1s;
 
   :hover {
@@ -38,6 +38,6 @@ export const Redirect = styled.h1`
   }
 
   @media (max-width: 540px) {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 `;

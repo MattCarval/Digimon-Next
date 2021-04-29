@@ -14,9 +14,9 @@ export const Search = styled.div`
   flex-direction: column;
   align-items: center;
 
-  padding: 50px 0;
+  padding: 3.125rem 0;
   > h1 {
-    margin: 20px 0;
+    margin: 125rem 0;
     text-align: center;
   }
 `;
