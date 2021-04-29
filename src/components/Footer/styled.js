@@ -6,7 +6,7 @@ export const Wrapper = styled.footer`
 `;
 
 export const Content = styled.div`
-  padding-top: 0.625rem;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,7 +35,7 @@ export const SocialBox = styled.div`
   justify-content: center;
 
   > a {
-    margin: 0.625rem;
+    margin: 10px;
   }
   > a:last-child {
     margin-right: 0;
@@ -45,7 +45,7 @@ export const SocialBox = styled.div`
 export const Social = styled.a`
   img {
     filter: grayscale() brightness(2);
-    width: 1.875rem;
+    width: 30px;
     transition: all 0.1s ease-in;
   }
 
@@ -63,7 +63,7 @@ export const Created = styled.div`
   justify-content: center;
 
   > span {
-    padding-bottom: 0.938rem;
+    padding-bottom: 15px;
     color: #ff6600;
     animation: ${Warning} infinite 1s;
   }

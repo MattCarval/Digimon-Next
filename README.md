@@ -4,16 +4,6 @@
 
 This is a [Next.js](https://nextjs.org/) study project.
 
-
-
-## Final result here
-
-- [Digimon Next](https://digimon-next.netlify.app/)
-
-## What is inside?
-
-- [Digimon Api](https://digimon-api.herokuapp.com/)
-
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -24,8 +14,6 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Plop](https://plopjs.com/)
 - [Prop-types](https://www.npmjs.com/package/prop-types)
-- [react-icons](https://react-icons.github.io/react-icons/)
-- [react-scroll](https://www.npmjs.com/package/react-scroll)
 
 ## Getting Started
 
