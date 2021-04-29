@@ -1,4 +1,6 @@
-import { Header, Footer } from '../../components';
+import { useState, useEffect } from 'react';
+import { Header, Body, Footer } from '../../components';
+import api from '../../../services/api';
 import * as S from './styled';
 
 const LOGO_HEADER = '/assets/logoTitle.png';
@@ -9,6 +11,17 @@ const GITHUB_ICON = '/assets/gitHubIcon.svg';
 const LINKEDIN_ICON = '/assets/linkedinIcon.svg';
 
 const Home = () => {
+  const [allDigimon, setAllDigimon] = useState([]);
+
+  const haveAllDigimons = async () => {
+    const response = await api.get();
+    return setAllDigimon(response.data);
+  };
+
+  useEffect(() => {
+    haveAllDigimons();
+  }, []);
+
   const socialArrayProp = [
     {
       imgSrc: LINKEDIN_ICON,
@@ -42,6 +55,7 @@ const Home = () => {
         logoSrc={LOGO_HEADER}
         logoAlt="teste"
       />
+      <Body title="Search for your favorite digimon" data={allDigimon} />
       <Footer
         id="footer"
         logoSrc={LOGO_FOOTER}
