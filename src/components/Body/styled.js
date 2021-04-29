@@ -14,7 +14,7 @@ export const Search = styled.div`
   flex-direction: column;
   align-items: center;
 
-  padding: 3.125rem 0;
+  padding: 50px 0;
   > h1 {
     margin: 125rem 0;
     text-align: center;
