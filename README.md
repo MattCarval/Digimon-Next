@@ -8,9 +8,10 @@ This is a [Next.js](https://nextjs.org/) study project.
 
 - [Digimon Next](https://digimon-next.netlify.app/)
 
-## What is inside?
+## API
 
 - [Digimon Api](https://digimon-api.herokuapp.com/)
+
 ## What is inside?
 
 This project uses lot of stuff as:

@@ -6,7 +6,6 @@ import * as S from './styled';
 const LOGO_HEADER = '/assets/logoTitle.png';
 const LOGO_FOOTER = '/assets/agumon.png';
 const WHATSAPP_ICON = '/assets/whatsAppIcon.svg';
-const GMAIL_ICON = '/assets/gmailIcon.svg';
 const GITHUB_ICON = '/assets/gitHubIcon.svg';
 const LINKEDIN_ICON = '/assets/linkedinIcon.svg';
 
@@ -41,13 +40,6 @@ const Home = () => {
       imgAlt:
         'Quadrado com bordas arredondadas, sendo este solido, com um contorno vazada formando a sombra de um gato indicando a rede de versionamento de código GitHub',
       redirect: 'https://github.com/MattCarval',
-    },
-    {
-      imgSrc: GMAIL_ICON,
-      imgAlt:
-        'Simbolo de uma carta com bordas onduladas indicando o serviço de e-mail do Gmail',
-      redirect:
-        'mailto:matheusfariadecarvalho@gmail.com?subject=FW: Assunto&body=Olá, tudo bem?',
     },
   ];
   return (

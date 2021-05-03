@@ -44,14 +44,14 @@ export const SocialBox = styled.div`
 
 export const Social = styled.a`
   img {
-    filter: grayscale() brightness(2);
+    opacity: 0.7;
     width: 30px;
     transition: all 0.1s ease-in;
   }
 
   img:hover {
     cursor: pointer;
-    filter: none;
+    opacity: 1;
     animation: ${OnlyGlitch} 1s ease 0s infinite normal none running;
     transition: all 0.7s ease-in;
   }
